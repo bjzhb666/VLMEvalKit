@@ -321,6 +321,7 @@ api_models = {
     "QwenVLPlus": partial(QwenVLAPI, model="qwen-vl-plus", temperature=0, retry=10),
     "QwenVLMax": partial(QwenVLAPI, model="qwen-vl-max", temperature=0, retry=10),
     "QwenVLMax-250408": partial(QwenVLAPI, model="qwen-vl-max-2025-04-08", temperature=0, retry=10),
+    "qwen3-vl-plus": partial(QwenVLAPI, model="qwen3-vl-plus", temperature=0, retry=10),
 
     # Reka
     "RekaEdge": partial(Reka, model="reka-edge-20240208"),

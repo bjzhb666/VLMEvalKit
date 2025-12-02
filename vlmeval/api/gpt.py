@@ -4,7 +4,9 @@ import sys
 from .base import BaseAPI
 
 APIBASES = {
-    'OFFICIAL': 'https://api.openai.com/v1/chat/completions',
+    # 'OFFICIAL': 'https://api.openai.com/v1/chat/completions',
+    'OFFICIAL': 'https://api.bianxie.ai/v1/chat/completions'
+    # 'OFFICIAL': 'https://api.chatanywhere.tech'
 }
 
 
